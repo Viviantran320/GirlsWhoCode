@@ -1,0 +1,57 @@
+body {
+background-color: lavenderblush;
+padding: 0;
+margin:0;
+
+}
+h1 {
+    color:darkslateblue;
+    font-family: Roboto Condensed; 
+    text-align: center;
+    
+}
+
+[data-tab-content] {
+    display:none; 
+}
+.active[data-tab-content] {
+    display: block; 
+}
+.tabs{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid black; 
+    font-size: 20px;
+
+}
+.tab{
+    cursor: pointer;
+    padding:10px;
+
+}
+
+.tab.active{
+    background-color:#CCC;
+    
+}
+.tab:hover{
+    background-color:#AAA;
+}
+.tab-content{
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+.img-STEM{
+    width:300px;
+    height:cover;
+    background-image:url(img/STEM.jpeg); 
+    background-image: linear-gradient(transparent 60%, white 200%);
+    background-size:contain;
+    background-position:left;
+    background-repeat:no-repeat;
+    
+
+}
